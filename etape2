@@ -1,0 +1,13 @@
+ls@DESKTOP-EJRP3Q0:~/TP2-devops$ docker build -t ma_super_app .
+[+] Building 0.1s (1/1) FINISHED                 docker:default
+ => [internal] load build definition from dockerfile       0.0s
+ => => transferring dockerfile: 583B                       0.0s
+dockerfile:22
+--------------------
+  20 |     CMD ["node", "index.js"]
+  21 |
+  22 | >>> \wsl.localhost\Ubuntu\home\ls\TP2-devops\tp-docker-2\package.json
+  23 |
+--------------------
+ERROR: failed to solve: dockerfile parse error on line 22: unknown instruction: \wsl.localhost\Ubuntu\home\ls\TP2-devops\tp-docker-2\package.json
+ls@DESKTOP-EJRP3Q0:~/TP2-devops$
